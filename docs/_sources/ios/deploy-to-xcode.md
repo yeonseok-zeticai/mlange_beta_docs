@@ -5,7 +5,6 @@ Deploy to XCode
 
  Currently Swift Native Interface is provided.
 
-
 ## Prerequisite
 
 1. Model file

@@ -69,10 +69,10 @@ Contents
    :maxdepth: 1
    :caption: Overview
 
+   overview/what-is-zetic-mlange.md
    overview/getting-started.md
-   .. overview/what-is-zetic-mlange.rst
-   .. overview/melange-api.md
-   .. preparation/model_converting.md
+   
+   
 
 .. toctree::
    :maxdepth: 1
@@ -91,12 +91,6 @@ Contents
    :caption: Additional features
 
    future_works.md
-   .. preprocess/preprocess.md
-   .. preprocess/opencv.rst
-   .. preprocess/librosa.rst
-   .. preprocess/tokenizer.rst
-
-   .. api_versions/api_versions.rst
 
 
 

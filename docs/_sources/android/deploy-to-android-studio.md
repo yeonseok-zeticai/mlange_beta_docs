@@ -9,7 +9,7 @@ Deploy to Android Studio
 
 1. Model Key
 
-    - Model file is provided by ZETIC.ai with URL. You can simply use the model url.
+    - You can get Model Key in with `mlange_gen` at Getting-start
 
 2. Aar Library
 
