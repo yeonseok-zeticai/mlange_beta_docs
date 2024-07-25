@@ -37,13 +37,19 @@ We guarantee that your AI model and data remain confidential and we are not goin
 ## 1. ZETIC Model generator
 
 ``` bash
-    $ wget [TO BE UPDATED]
-    $ ./ mlange_gen -m TORCH_SCRIPT_MODEL -i INPUT0.npy,INPUT1.npy,...
+    $ wget https://github.com/zetic-ai/zetic_mentat/blob/20fccdf7a117d319b1c676d2f9a4640d35790db0/mlange_gen
+    $ ./mlange_gen -m TORCH_SCRIPT_MODEL -i INPUT0.npy,INPUT1.npy,...
 
     # Expected Output
-    # [Type your e-mail if you want to get contact about the mail: ] (Press Enter to skip)
+    # Enter your email to receive updates from us
+    # Press Enter to skip
+    Email : {INPUT EMAIL}
 
-    # - MLange Model key: {YOUR MODEL KEY}
+    File Uploading...
+
+    MLange Model Key : {YOUR_MODEL_KEY}
+    MLange model profiling started. it might takes 10 or more minutes.
+    The number of model downloads is limited. You can download it 5 times during the trial.
 
 ```
 
@@ -52,8 +58,8 @@ We guarantee that your AI model and data remain confidential and we are not goin
 - Android
   - (Kotlin)
     ``` kotlin
-        ZeticMelangeModel userModel = new ZeticMelangeModel("https://zetic.ai/target_models/USER/MODEL_PATH");
-        userModel.run(MODEL_INPUTS)
+        ZeticMLangeModel model = new ZeticMLangeModel("YOUR MODEL KEY");
+        model.run(YOUR_INPUT_BYTE_BUFFERS)
     ```
 
 - iOS

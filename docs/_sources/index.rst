@@ -38,9 +38,15 @@ Quick Start
    $ ./mlange_gen -m TORCHSCRIPT_MODEL -i INPUT0.npy,INPUT1.npy,...
 
    # Expected Output
-   # [Type your e-mail if you want to get contact about the mail: ] (Press Enter to skip)
+    # Enter your email to receive updates from us
+    # Press Enter to skip
+    Email : {INPUT EMAIL}
 
-   # - MLange Model key: {YOUR MODEL KEY}
+    File Uploading...
+
+    MLange Model Key : {YOUR_MODEL_KEY}
+    MLange model profiling started. it might takes 10 or more minutes.
+    The number of model downloads is limited. You can download it 5 times during the trial.
 
 
 2. Use result hash value of your model in Mobile Applications
