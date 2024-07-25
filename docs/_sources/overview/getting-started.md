@@ -1,4 +1,4 @@
-# Getting Started (Requirements)
+# Getting Started
 
 This page describes requirements to start ZETIC.MLange
 

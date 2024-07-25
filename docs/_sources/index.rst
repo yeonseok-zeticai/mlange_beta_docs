@@ -71,8 +71,6 @@ Contents
 
    overview/what-is-zetic-mlange.md
    overview/getting-started.md
-   
-   
 
 .. toctree::
    :maxdepth: 1
