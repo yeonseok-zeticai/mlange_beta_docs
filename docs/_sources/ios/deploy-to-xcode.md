@@ -46,12 +46,12 @@ ZeticMLangeiOSSample
 let inputs: [Data] = [] // Prepare your inputs
 
 // (2) Load Zetic MLange model
-let model = try ZeticMLangeModel(modelName: "MLANGE MODEL KEY")
+let model = try ZeticMLangeModel("MLANGE MODEL KEY")
 
 // (3) Run model and get outputs
-try model.run(userInput: inputs)
+try model.run(inputs)
 
-// (4) Get output buffers
+// (4) Get output data array
 let outputs = model.getOutputDataArray()
 ```
 
