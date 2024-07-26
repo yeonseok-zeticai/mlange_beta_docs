@@ -4,7 +4,7 @@ This page describes requirements to start ZETIC.MLange
 
 ```{admonition} Beta version notification
 
- Current version of ZETIC.MLange generate library from your model in remote server.
+ Current version of ZETIC.MLange generates On-device AI library from your model in remote server.
 We guarantee that your AI model and data remain confidential and we are not going to use it.
 
 ```
@@ -37,7 +37,7 @@ We guarantee that your AI model and data remain confidential and we are not goin
 ## 1. ZETIC Model generator
 
 ``` bash
-    $ wget https://github.com/zetic-ai/zetic_mentat/blob/20fccdf7a117d319b1c676d2f9a4640d35790db0/mlange_gen
+    $ wget https://github.com/zetic-ai/ZETIC_MLange_document/raw/main/bin/mlange_gen
     $ ./mlange_gen -m TORCH_SCRIPT_MODEL -i INPUT0.npy,INPUT1.npy,...
 
     # Expected Output

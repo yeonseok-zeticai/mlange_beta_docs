@@ -59,5 +59,5 @@ let outputs = model.getOutputDataArray()
 ## (+) Additional API for MLange-iOS usage
 
 - [This will be updated very soon]
-- As a default we set the model to use FP166 data type over NPU
+- As a default we set the model to use FP16 data type over NPU
 - We set 1 more option for user to choose runtime mode for Better output accuracy.

@@ -28,7 +28,7 @@ Quick Start
 
 .. code-block:: bash
    
-   $ wget https://github.com/zetic-ai/zetic_mentat/blob/20fccdf7a117d319b1c676d2f9a4640d35790db0/mlange_gen
+   $ wget https://github.com/zetic-ai/ZETIC_MLange_document/raw/main/bin/mlange_gen
 
 
 1. Let ZETIC.MLange automatically make runnable target model for heterogeneous target devices!
